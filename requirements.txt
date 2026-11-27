@@ -1,0 +1,8 @@
+streamlit
+streamlit-folium
+folium
+mediapipe
+opencv-python-headless
+numpy
+scikit-learn
+sqlmodel

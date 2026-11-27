@@ -1,0 +1,38 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Environment variables & secrets
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Databases & local storage
+*.db
+*.sqlite
+*.sqlite3
+
+# Uploaded images (preserve directory structure)
+uploads/*
+!uploads/.gitkeep
+
+# Large models (downloaded on demand as specified in README)
+face_landmarker.task
+
+# IDE & Editor artifacts
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Testing & logs
+.pytest_cache/
+*.log
